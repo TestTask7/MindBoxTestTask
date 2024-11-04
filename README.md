@@ -11,7 +11,7 @@ LEFT JOIN Categories c
 ON p.CategoryId = c.CategoryId;
 ```
 
-Но, если выполнить нормализацию данных, мы получим смежную таблицу ProductsCategories, где ProductID и CategoryID будут уникальными ключами для таблиц Products и Categories.
+Но, если выполнить нормализацию данных, мы получим смежную таблицу ProductsCategories, а ProductID и CategoryID будут уникальными ключами для таблиц Products и Categories.
 Тогда запрос будет выглядеть следующим образом:
 
 ```
